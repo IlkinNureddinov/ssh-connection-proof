@@ -1,10 +1,27 @@
-# ssh-connection-proof
-Configuring Router and Connect with SSH./
-hostname R1
-ip domain-name ilkin.local
-crypto key generate rsa modulus 1024 
-username ilkin privilege 15 secret Cisco123
-line vty 0 4
-login local
-transport input ssh
-ip ssh version 2
+Project Description
+This project demonstrates the successful configuration and verification of SSH access on my Cisco router.
+The repository includes screenshots as proof of a live SSH session connecting remotely to the device.
+
+This task represents a major step in my journey of mastering real hardware and becoming a proficient network engineer.
+
+🛠 Technologies Used
+Cisco Router (1921 and 2921)
+
+SSH (Secure Shell Protocol)
+
+PuTTY  / Terminal Access
+
+Cisco IOS Basic Configuration
+
+📷 Screenshots
+
+Title	Description
+Succesful Connection	Screenshot showing a successful SSH login to the Cisco router, including CLI access and system prompt.
+
+Personal Statement
+This project is part of my ongoing commitment to hands-on learning and professional growth.
+Working directly with routers and network equipment builds true engineering discipline.
+
+Contact
+Ilkin Nureddinov
+https://github.com/IlkinNureddinov
