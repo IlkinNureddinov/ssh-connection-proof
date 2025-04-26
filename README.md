@@ -1,5 +1,5 @@
 # ssh-connection-proof
-Configuring Router and Connect with SSH 
+Configuring Router and Connect with SSH./
 hostname R1
 ip domain-name ilkin.local
 crypto key generate rsa modulus 1024 
